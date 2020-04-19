@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="kalkulator.css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Kalkulator</title>
+</head>
+<body>
+	<div class="panel" align="center">
+		<h2>Kalkulator</h2>
+	<div class="container">	
+		<div class="display">
+			<input type="text"  id="display" value="" disabled></input>
+		</div>
+		<div class="button">
+	        <button type="input" class="kalkulator-button number value="7" onclick="a(7)">7</button>
+	        <button type="button" class="kalkulator-button number value="9" onclick="a(9)">8</button>
+	        <button type="button" class="kalkulator-button number value="8" onclick="a(8)">7</button>
+	        <button type="button" class="kalkulator-button operator value="+" onclick="a('+')">+</button>
+   		 </div>
+   		 <div class="button">
+	        <button type="button" class="kalkulator-button number value="7" onclick="a(4)">4</button>
+	        <button type="button" class="kalkulator-button number value="9" onclick="a(5)">5</button>
+	        <button type="button" class="kalkulator-button number value="8" onclick="a(6)">6</button>
+	        <button type="button" class="kalkulator-button operator value="*" onclick="a('*')">*</button>
+   		 </div>
+   		 <div class="button">
+	        <button type="button" class="kalkulator-button number value="7" onclick="a(1)">1</button>
+	        <button type="button" class="kalkulator-button number value="9" onclick="a(2)">2</button>
+	        <button type="button" class="kalkulator-button number value="8" onclick="a(3)">3</button>
+	        <button type="button" class="kalkulator-button operator value="-" onclick="a('-')">-</button>
+   		 </div>
+   		 <div class="button">
+	        <button type="button" class="kalkulator-button number value="=" onclick="calc()" style="float:left;  width: 115px">=</button>
+	        <button type="button" class="kalkulator-button number value="C" onclick="clr('')">AC</button>
+	        <button type="button" class="kalkulator-button operator value="+/-" onclick="plusMinus()">+/-</button>
+   		 </div>
+   		 </div>
+		
+
+	<script type="text/javascript">
+		function a(val){
+			document.getElementById("display").value += val; 
+		}
+		function plusMinus(){
+			document.getElementById("display").value *= (-1); 
+		}
+		function clr(val){
+			document.getElementById("display").value = val;
+		}
+		function calc(){
+			try{ 
+				clr(eval(document.getElementById("display").value));
+			}
+			catch(calc){
+				clr("Error")
+
+				function del() {
+					var textF= display.value;
+					var textE= textF.slice(0,textF.length - 1 );
+					display.value=textE;
+					changeFontsize(display.value.length);
+				}
+			}
+		}
+	</script>	
+</body>
+</html>
