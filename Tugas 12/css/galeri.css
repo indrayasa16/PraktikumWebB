@@ -1,0 +1,198 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body{
+    background-color: #a9a9a9;
+}
+ 
+.utama{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: #FFF;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+ 
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+ 
+.navigasi li {
+    float: right;
+}
+ 
+.navigasi li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+.navigasi li a:hover {
+    background-color: #534A3C;
+    transition-duration: 2s;
+}
+ 
+.banner{
+    
+    width: 1050px;  
+    height: 300px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+ 
+.banner h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+ 
+.kotak{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak h3{
+    background-color: #a9a9a9;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.kotak p{
+    margin-bottom: 10px;
+}
+
+.kotak a{
+	text-decoration:none;
+}
+ 
+.menu-kiri{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+
+.menu-populer ul{
+    list-style-type: none;
+}
+ 
+.menu-populer ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+    color: black;
+}
+ 
+.menu-populer ul li a:hover{
+    color: darkorange;
+    border-bottom: 5px double chocolate;
+    transition-duration: 2s;
+}
+ 
+.menu-tengah{
+    width: 780px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah h3{
+    background: none;
+    color: #5E6E72;
+    margin-bottom: 0;
+}
+
+.kotak-tengah{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak-tengah h3{
+    background-color: #87CEEB;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak-tengah img{
+    display: block;
+    width: 300px;
+	height: 300px;
+    margin-bottom: 10px;
+}
+ 
+.kotak-tengah p{
+    margin-bottom: 10px;
+}
+
+.kotak-tengah a{
+	text-decoration:none;
+}
+.content{
+    width: 500px;
+    height: 500px;
+    /*padding: 20px;*/
+}
+.content h1{
+    color: #00008B;
+}
+.content h1 a{
+    text-decoration: none;
+    color: #00008B;
+}
+.galeri_home{
+    border: solid #00CED1;
+}
+.galeri_home img{
+    padding-left: 30px;
+}
+.content h3 {
+    text-align: right;
+}
+.content h3 a{
+    color: #00008B;
+}
+ 
+.menu-kanan{
+    width: 250px;
+    float: left;
+}
+ 
+.menu-kanan, .menu-tengah{
+    margin-bottom: 15px;
+}
+ 
+footer{
+    clear: both;
+    background-color: #a9a9a9;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+ 

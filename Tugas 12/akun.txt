@@ -1,0 +1,6 @@
+Admin  
+Email: admin@gmail.com
+Password: indrayasa
+Karyawan
+Email: indrayasa@gmail.com	
+Password : indrayasa
