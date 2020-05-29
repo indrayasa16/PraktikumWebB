@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.9
+-- version 4.9.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 08, 2020 at 04:03 PM
--- Server version: 10.1.31-MariaDB
--- PHP Version: 7.2.3
+-- Waktu pembuatan: 28 Bulan Mei 2020 pada 15.35
+-- Versi server: 10.4.8-MariaDB
+-- Versi PHP: 7.3.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
+-- Struktur dari tabel `user`
 --
 
 CREATE TABLE `user` (
@@ -36,32 +36,32 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `user`
+-- Dumping data untuk tabel `user`
 --
 
 INSERT INTO `user` (`id`, `email`, `password`, `level`) VALUES
-(1, 'admin@gmail.com', '9e7e64511c7afcd8ccfef089465febb0', 'admin'),
-(2, 'indrayasa@gmail.com', '9e7e64511c7afcd8ccfef089465febb0', 'karyawan');
+(1, 'admin@gmail.com', '2da9fffaed85c0ff92520a6eb00a502f', 'admin'),
+(2, 'indrayasa@gmail.com', '2da9fffaed85c0ff92520a6eb00a502f', 'karyawan');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `user`
+-- Indeks untuk tabel `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `user`
+-- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

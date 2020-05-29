@@ -1,0 +1,250 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.navigasi ul {
+ padding: 0;
+ margin: 0;
+ list-style: none;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ font-weight: bold;
+ width: 100%;
+ background-color:#B0C9D2;
+ overflow: hidden;
+ position: fixed;
+ top: 0;
+ z-index: 1;
+}
+
+.navigasi li {
+ float: right;
+}
+
+.navigasi li a {
+ display: block;
+ color: #655f5f;
+ text-align: center;
+ padding: 10px 20px;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: bold;
+ width: 100px;
+}
+
+.navigasi li a:hover {
+ background-color: #534A3C;
+ transition-duration: 2s;
+}
+
+#sectionHome{
+ height: 700px;
+ display: inline-block;
+ width: 100%;
+ overflow: hidden;
+ background: url(../img/background.jpg) no-repeat;
+ background-size: cover;
+ text-align: center;
+ color: white;
+}
+
+#sectionHome h1{
+margin-top: 300px;
+color: white;
+text-transform: uppercase;
+}
+
+
+#sectionGaleri{
+height: 700px;
+display: inline-block;
+width: 100%;
+}
+
+#sectionGaleri h2{
+ text-transform: uppercase;
+ text-align: center;
+ padding: 0;
+ margin-top: 100px;
+}
+
+#sectionGaleri label{
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+#sectionGaleri input[type=text]{
+ border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border: 1px solid ;
+ outline: none;
+ padding: 5px 8px 5px 8px;
+ width:50%;
+}
+
+#sectionGaleri input[type=submit]{
+ background: ;
+ border: 1px solid ;
+ padding: 5px 15px 5px 15px;
+ border-radius: 3px;
+ border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;	
+ font-weight: bold;
+}
+
+#form-peminjaman{
+display: inline-block;
+width: 100%;
+}
+
+#form-peminjaman h1{
+  margin-top: 100px;
+  color: black;
+  text-transform: uppercase;
+  border: 2px;
+  }
+
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 300px;
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+}
+
+.price {
+ color: grey;
+ font-size: 22px;
+}
+
+.card button {
+ border: none;
+ outline: 0;
+ padding: 12px;
+ color: white;
+ background-color: #000;
+ text-align: center;
+ cursor: pointer;
+ width: 100%;
+ font-size: 18px;
+}
+
+.card button:hover {
+ opacity: 0.7;
+}
+
+#sectionTentang{
+height: 700px;
+display: inline-block;
+width: 100%;
+}
+
+#sectionTentang img{
+ width: 500px;
+ height: 500px;
+ box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#sectionTentang h1{
+ text-transform: uppercase;
+ text-align: center;
+ padding: 0;
+ margin-top: 100px;
+}
+
+#sectionKontak{
+height: 700px;
+display: inline-block;
+width: 100%;
+margin-bottom: 20px;
+}
+
+#sectionKontak h1{
+ text-transform: uppercase;
+ text-align: center;
+ padding: 0;
+ margin-top: 100px;
+}
+
+#editProfile{
+  height: 700px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  }
+  
+  #editProfile h1{
+   text-transform: uppercase;
+   text-align: center;
+   padding: 0;
+   margin-top: 100px;
+  }
+
+footer{
+ clear: both;
+ background-color: #B0C9D2;
+ color: black;
+ padding: 15px;
+ text-align: center;
+}
+
+.page {
+ display: inline-block;
+ padding: 5px 9px;
+ margin-right: 4px;
+ border-radius: 3px;
+ border: solid 1px #c0c0c0;
+ background: #e9e9e9;
+ font-size: 16px;
+ font-weight: bold;
+ text-decoration: none;
+ color: #717171;
+ text-transform: capitalize;
+}
+
+.page:hover{
+ background:#FAF7F7;
+}
+
+.active, .active:hover{
+ background: #757272;
+ border-color: #403C3C;
+ color: #e9e9e9;
+ cursor: default;
+}
+
+#form-peminjaman input{
+  border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border: 1px solid ;
+ outline: none;
+ padding: 5px 8px 5px 8px;
+ -moz-box-shadow: inset 1px 1px 4px ;
+ -webkit-box-shadow: inset 1px 1px 4px #;
+ width:300px;
+}
+
+#form-peminjaman input[type=submit]{
+  background: #B0C9D2;
+  border: 1px solid #B0C9D2;
+  padding: 5px 15px 5px 15px;
+  color: white;
+  border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;	
+  font-weight: bold;
+  margin-top: 20px;
+ }
+
+
