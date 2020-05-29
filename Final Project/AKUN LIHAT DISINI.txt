@@ -1,0 +1,15 @@
+USER
+username : raffa123
+password : 12345
+
+username : claire123
+password : 12345
+
+
+ADMIN
+username : indrayasa038@gmail.com
+password : 12345678
+
+SUPERADMIN
+username : superadmin
+password : 12345
