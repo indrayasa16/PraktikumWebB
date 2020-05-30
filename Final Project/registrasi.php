@@ -15,15 +15,15 @@
         <?php
 			include "koneksi.php";
 			if(isset($_POST['submit'])) {
-				$query = "INSERT INTO tb_user (username, nama, tanggal_lahir, jenis_kelamin, no_tlp, alamat, passwords, status_user) VALUES
-						('".$_POST['username']."',
-					     '".$_POST['nama']."',
-					     '".$_POST['tglLahir']."',
-					     '".$_POST['jenisKelamin']."',
-					     '".$_POST['no_tlp']."',
-                         '".$_POST['alamat']."',
-                         '".$_POST['passwords']."',
-					     '".$_POST['status_user']."''')";			
+                $username = $_POST['username'];
+                $nama = $_POST['nama'];
+                $tglLahir = $_POST['tglLahir'];
+                $jk = $_POST['jenisKelamin'];
+                $no_tlp = $_POST['no_tlp'];
+                $alamat = $_POST['alamat'];
+                $password = $_POST['passwords'];
+
+				$query = "INSERT INTO tb_user (username, nama, tanggal_lahir, jenis_kelamin, no_tlp, alamat, passwords, status_user) VALUES ('$username', '$nama', '$tglLahir', '$jk', '$no_tlp', '$alamat', '$password', 'User')";			
 				$daftar = mysqli_query($conn, $query) or die (mysqli_error($conn));
 				if($daftar) {
 					echo "<script>alert('Anda Berhasil Mendaftar');
@@ -64,8 +64,6 @@
             <label for="passwords" style="padding-top:13px">&nbsp;Password</label>
             <input type="password" id="passwords" name="passwords" class="login-form" required/>
 
-            <input type="hidden" id="status" name="status" class="login-form" value="User"/>            
-            
             <div class="form-border"></div>
             <input type="submit" name="submit" class="btn-submit" value="Daftar">
          </form>
